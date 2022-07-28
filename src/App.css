@@ -1,0 +1,61 @@
+@import '~antd/dist/antd.css';
+
+body {
+    background-color: lightblue;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    margin: 30px auto;
+    min-height: 240px;
+    text-align: center;
+    overflow-wrap: break-word;
+    opacity: 0.9;
+    box-shadow: 1px 1px 8px black;
+}
+
+.title {
+    font-size: 30px;
+    font-family: AppleGothic, serif;
+}
+
+.card input {
+    width: 87%;
+}
+
+.checkBox {
+    margin-left: 20px;
+}
+
+.card li {
+    text-align: left;
+    list-style-type: none;
+    position: relative;
+    right: 20px;
+    font-size: 16px;
+}
+
+.checked {
+    opacity: 0.8;
+    text-decoration-line: line-through;
+}
+
+.card li:first-of-type {
+    margin-top: 10px;
+}
+
+.card li:last-of-type {
+    margin-bottom: 60px;
+}
+
+
+.buttonSection {
+    position: absolute;
+    bottom: 15px;
+}
+
+.clearButton {
+    width: 220px;
+
+}
